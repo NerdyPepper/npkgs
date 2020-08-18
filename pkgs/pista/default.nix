@@ -9,7 +9,7 @@ rustPlatform.buildRustPackage {
   cargoSha256 = "13qf4ahzah5gqcpvdvnw87aya9qvvkg2bharhgxddk2bzsf4j66s";
 
   meta = with lib; {
-    description = "prompt";
+    description = "a simple {bash, zsh} prompt for programmers";
     homepage = "https://github.com/NerdyPepper/pista";
     license = licenses.mit;
   };
