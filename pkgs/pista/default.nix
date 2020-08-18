@@ -1,6 +1,6 @@
 { stdenv, lib, rustPlatform, fetchFromGitHub, pkgconfig, openssl }:
 
-let version = "0.1.3"; in
+let version = "0.1.4"; in
 rustPlatform.buildRustPackage {
   pname = "pista";
   inherit version;
